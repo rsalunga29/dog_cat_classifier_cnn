@@ -4,8 +4,8 @@ from random import shuffle
 from tqdm import tqdm
 
 class TrainDogCatClassifier():
-    def __init__(self):
-        self.model = model.ConvNeuralNetwork().model
+    def __init__(self, model):
+        self.model = model.ConvNeuralNetwork.model
 
     '''
     Conversion to one-hot array
@@ -55,5 +55,5 @@ class TrainDogCatClassifier():
         self.model.save('model/{}'.format(settings.MODEL_NAME))
 
 if __name__ == '__main__':
-    trainer = TrainDogCatClassifier()
+    trainer = TrainDogCatClassifier(model)
     trainer.run()

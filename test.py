@@ -25,7 +25,7 @@ class TestDogCatClassifier():
         return testing_data
 
     def run(self):
-        self.model.load('model/{}'.format(settings.MODEL_NAME))  
+        self.model.load('model/{}'.format(settings.MODEL_NAME))
 
         if os.path.exists('data/testing_data.npy'):
             testing_data = np.load('data/testing_data.npy', allow_pickle=True)
