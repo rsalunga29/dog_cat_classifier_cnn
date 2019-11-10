@@ -13,14 +13,14 @@ This is my 🐶 vs 🐱 image classifier with **Convolutional Neural Networks (C
 - Matplotlib
 
 ### Usage
-1.) Download the dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition#)
-2.) Extract the files on the data folder
-3.) After extracting, go inside the data folder and extract the train and test into their respective folders
-4.) Tweak the network and model settings by following the instructions below (Tweaking network and model)
-5.) Run `python3 train.py` on your terminal to train the model
-6.) Wait for the training to be finished, run `tensorboard --dirlog=log` on your terminal to see the performance of the training
-7.) Run `python3 test.py` to test your model's accuracy
-8.) Run `python3 main.py --image="some/path/to/image.jpg"` to predict whether your image is a 🐶 or a 🐱
+- 1.) Download the dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition#)
+- 2.) Extract the files on the data folder
+- 3.) After extracting, go inside the data folder and extract the train and test into their respective folders
+- 4.) Tweak the network and model settings by following the instructions below (Tweaking network and model)
+- 5.) Run `python3 train.py` on your terminal to train the model
+- 6.) Wait for the training to be finished, run `tensorboard --dirlog=log` on your terminal to see the performance of the training
+- 7.) Run `python3 test.py` to test your model's accuracy
+- 8.) Run `python3 main.py --image="some/path/to/image.jpg"` to predict whether your image is a 🐶 or a 🐱
  
 ### Tweaking network and model
 By default, the `LEARNING_RATE` is set to `1e-4` or `0.0001` while the `DROPOUT_RATE` is set to `0.8`, you can change this by opening `settings.py` and editing their values.
