@@ -1,9 +1,8 @@
 # Image Classifier with Deep Learning
 <h3 align="center">
-    <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_706,w_1256,x_0,y_64/f_auto,q_auto,w_1100/v1554995050/shape/mentalfloss/516438-istock-637689912.jpg")
-Image from [Mentalfloss.com](https://www.mentalfloss.com/article/516438/8-tricks-help-your-cat-and-dog-get-along" width="300">
-    Image credit from [Mentalfloss.com](https://www.mentalfloss.com/article/516438/8-tricks-help-your-cat-and-dog-get-along)
+    <img src="https://images2.minutemediacdn.com/image/upload/v1554995050/shape/mentalfloss/516438-istock-637689912.jpg")
 </h3>
+Image credit from [Mentalfloss.com](https://www.mentalfloss.com/article/516438/8-tricks-help-your-cat-and-dog-get-along)
 
 ### Introduction
 This is my 🐶 vs 🐱 image classifier with **Convolutional Neural Networks (CNNs) using Tensorflow 1.x and TFLearn**. I have created this after following a couple of tutorials from [Sentdex](https://pythonprogramming.net/). This is merely a test and practice, I do not own the dataset that is used and most of my codebase is heavily influence by Sentdex's tutorial.
