@@ -1,7 +1,5 @@
 # Image Classifier with Deep Learning
-<h3 align="center">
-    <img src="https://images2.minutemediacdn.com/image/upload/v1554995050/shape/mentalfloss/516438-istock-637689912.jpg")
-</h3>
+![](https://images2.minutemediacdn.com/image/upload/v1554995050/shape/mentalfloss/516438-istock-637689912.jpg)
 Image credit from [Mentalfloss.com](https://www.mentalfloss.com/article/516438/8-tricks-help-your-cat-and-dog-get-along)
 
 ### Introduction
