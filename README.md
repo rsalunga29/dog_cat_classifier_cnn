@@ -5,20 +5,12 @@ Image credit from [Mentalfloss.com](https://www.mentalfloss.com/article/516438/8
 ### Introduction
 This is my 🐶 vs 🐱 image classifier with **Convolutional Neural Networks (CNNs) using Tensorflow 1.x and TFLearn**. I have created this after following a couple of tutorials from [Sentdex](https://pythonprogramming.net/). This is merely a test and practice, I do not own the dataset that is being used and most of my codebase is heavily influenced by Sentdex's tutorials.
 
-### My Results
-Below are images from my Tensorboard. For someone who had a hard time understanding Deep Learning like me, I believe this is a satisfactory result, although I'm still aiming for a much better number.
-
-Accuracy
-![Accuracy](assets/Accuracy.svg)
-
-Accuracy Validation
-![Accuracy Validation](assets/Accuracy_Validation.svg)
-
-Loss
-![Loss](assets/Loss.svg)
-
-Loss Validation
-![Loss Validation](assets/Loss_Validation.svg)
+### Requirements
+- Tensorflow 1.15.0-rc2
+- TFLearn 0.3.2
+- Tqdm 4.36.1
+- Numpy
+- Matplotlib
 
 ### Usage
 1.) Download the dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition#)
@@ -40,6 +32,21 @@ Additionally, the model is structured to be have 4 hidden layers, you can change
 The model will train for 20 epochs*, open `train.py` and edit the `n_epoch` parameter on *line 51* to change the number of epochs
 
 *an epoch refers to one cycle through the full training dataset.
+
+### My Results
+Below are images from my Tensorboard. For someone who had a hard time understanding Deep Learning like me, I believe this is a satisfactory result, although I'm still aiming for a much better number.
+
+Accuracy
+![Accuracy](assets/Accuracy.svg)
+
+Accuracy Validation
+![Accuracy Validation](assets/Accuracy_Validation.svg)
+
+Loss
+![Loss](assets/Loss.svg)
+
+Loss Validation
+![Loss Validation](assets/Loss_Validation.svg)
 
 ### Notes
 I'm satisfied with what I've accomplished so far, there are lots of rooms for improvement and I plan on achieving them all. However, I plan on moving forward into Tensorflow 2.0 and Keras in the next few weeks/months, as suggested by many. So this will be my only TFLearn project.
